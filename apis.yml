@@ -1,7 +1,28 @@
 aid: beem
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beem.png
 name: Beem
-description: Beem is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Beem is a consumer fintech mobile app (trybeem.com) offering instant cash
+  advances of up to $1,000 through its Everdraft feature with no credit check
+  and no interest, alongside personal loans up to $100,000, high-yield savings
+  accounts paying up to 5% APY, AI-powered budgeting, credit building, cashback
+  rewards, identity-theft protection, and insurance products. It supports
+  non-traditional income (gig, freelance, government benefits) and can transfer
+  funds to Cash App or a bank account. Backed by Techstars and used by more than
+  five million people, Beem is consumer-facing and does not publish a public
+  developer API, SDK, or developer portal at this time. Added to the API
+  Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/beem/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Consumer Finance
+- Cash Advance
+- Personal Loans
+- Banking
+- Payments
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://trybeem.com/
+- type: Pricing
+  url: https://trybeem.com/pricing
+- type: Blog
+  url: https://trybeem.com/blog
+- type: Support
+  url: https://help.trybeem.com/support/home
+- type: TermsOfService
+  url: https://trybeem.com/terms
+- type: PrivacyPolicy
+  url: https://trybeem.com/privacy
+- type: SignUp
+  url: https://trybeem.onelink.me/hgc0/5ovdtt3o
+- type: Compliance
+  url: https://trybeem.com/security
+- type: TrustCenter
+  url: security/beem-trust-center.yml
+- type: DomainSecurity
+  url: security/beem-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

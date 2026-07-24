@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trybeem.com/security
+url: https://trybeem.com/security
+certifications:
+- SOC 2
+- PCI DSS
+- NIST CSF
+evidence:
+- source: https://trybeem.com/security
+  keywords:
+  - soc2
+  - pci-dss
+  - nist-csf
